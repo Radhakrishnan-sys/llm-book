@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "book-recommender"
+version = "0.1.0"
+description = "book recommender"
+authors = ["Radhakrishnan <work.connectwithkrishna@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+python-dotenv = "^1.0.1"
+gradio = "^5.27.0"
+kagglehub = "^0.3.12"
+langchain = "^0.3.24"
+langchain-community = "^0.3.22"
+matplotlib = "^3.10.1"
+numpy = "^2.2.5"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+seaborn = "^0.13.2"
+sentence-transformers = "^4.1.0"
+scikit-learn = "^1.6.1"
+tqdm = "^4.67.1"
+transformers = "^4.51.3"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
